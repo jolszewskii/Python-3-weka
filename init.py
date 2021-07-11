@@ -91,7 +91,6 @@ def show_csv():
         msg.showinfo('ATTENTION', 'Done')
     except Exception as e:
         msg.showerror('Error', e)
-#endregion
 
 def retrieve_input():
     retrieve_input.inputValue = gui.textbox.get("1.0","end-1c")
